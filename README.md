@@ -57,7 +57,7 @@ git clone git@github.com:natanlimaz/todolist-app-flutter.git
 
 ### 2. Visualizar e Atualizar Tarefas
 - Depois de adicionar algumas tarefas, você poderá visualizá-las e gerenciá-las na lista principal. Aqui está o que você pode fazer:
-  - **Editar Tarefa**: Se precisar editar o título de uma tarefa existente, toque na tarefa para abrir o modo de edição. Você pode então modificar o título conforme necessário e salvar as alterações clicando em "Adicionar tarefa".
+  - **Editar Tarefa**: Se precisar editar o nome de uma tarefa existente, toque na tarefa para abrir o modo de edição. Você pode então modificar o nome da tarefa conforme necessário e salvar as alterações clicando em "Adicionar tarefa".
   - **Excluir Tarefa**: Para excluir uma tarefa, toque no ícone de lixeira que aparece na tarefa. A tarefa será removida da lista.
 
 ### 3. Buscar Tarefas
