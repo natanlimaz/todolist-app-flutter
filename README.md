@@ -45,4 +45,6 @@ git clone git@github.com:natanlimaz/todolist-app-flutter.git
 
 5. **Execute o Comando Flutter Run**:
    - No terminal integrado, digite o comando `flutter run` e pressione "Enter".
-   - Isso irá compilar seu aplicativo Flutter e iniciá-lo no dispositivo físico conectado.
+   - Isso irá instalar as dependências necessárias e compilar seu aplicativo Flutter e iniciá-lo no dispositivo físico conectado (Digite o comando e aguarde!).
+
+## Como Usar o Aplicativo e Suas Funcionalidades
