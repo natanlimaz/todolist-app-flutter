@@ -14,7 +14,7 @@ O aplicativo Todo List é uma ferramenta simples e eficiente para ajudá-lo a or
 - **Deve ser feita a instalaçao de dois plugins, segue abaixo o id de ambos**
 - **Dart**: Dart-Code.dart-code
 - **Flutter**: Dart-Code.flutter
-Só copiar e colar na aba de extensão do Visual Studio Code e clicar em instalar.
+- Só copiar e colar na aba de extensão do Visual Studio Code e clicar em instalar.
 
 
 ## Guia Passo a Passo para Executar o Aplicativo
