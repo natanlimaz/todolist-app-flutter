@@ -35,7 +35,7 @@ git clone git@github.com:natanlimaz/todolist-app-flutter.git
    - Se você não configurou o Flutter SDK, siga as instruções de instalação no site oficial do Flutter em [flutter.dev](https://flutter.dev/docs/get-started/install).
 
 3. **Abra um Terminal Integrado**:
-   - No VSCode, pressione `Ctrl Shift +` (grave) para abrir o terminal integrado.
+   - No VSCode, pressione `Ctrl Shift '` (grave) para abrir o terminal integrado.
    - Certifique-se de estar no diretório raiz do seu projeto Flutter.
 
 4. **Conecte seu dispositio físico ao computador usando um cabo USB**:
