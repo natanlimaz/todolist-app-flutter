@@ -7,6 +7,7 @@ O aplicativo Todo List é uma ferramenta simples e eficiente para ajudá-lo a or
 ### 1. Flutter SDK
 - [Instruções de Instalação do Flutter SDK](https://docs.flutter.dev/get-started/install/windows/mobile?tab=vscode)
 - [Adicionando o Flutter ao PATH do Sistema](https://docs.flutter.dev/get-started/install/windows/mobile?tab=vscode#:~:text=Clique%20em%20Adicionar%20SDK%20ao%20PATH%20.)
+- [Instruções de como configurar o seu dispositivo Android para executar o App](https://docs.flutter.dev/get-started/install/windows/mobile?tab=physical#set-up-your-target-android-device)
 
 ### 2. Editor de Código
 **Visual Studio Code**: [Instalação do VSCode](https://code.visualstudio.com/download)
