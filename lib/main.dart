@@ -38,6 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
   SharedPreferencesService? service;
   List<String> listData = [];
   List<String> _list = [];
+  String _searchText = '';
 
   @override
   void initState() {
@@ -57,25 +58,35 @@ class _MyHomePageState extends State<MyHomePage> {
     final sharedPreferences = await SharedPreferences.getInstance();
     service = SharedPreferencesService(sharedPreferences);
 
-    listData = await service?.getTasks() ?? [];
-    setState(() {
-
-    });
+    // Inicialize a lista de tarefas com todas as tarefas
+  _list = await service?.getTasks() ?? [];
+  // Atualize a lista filtrada com base no texto de pesquisa atual
+  search(_searchText);
   }
 
   // implementação adicional de um filtro de busca
   void search(String searchText) async {
-    _list = await service?.getTasks() ?? [];
-    listData.clear();
-    for(var i = 0; i < _list.length; i++) {
-      String data = _list[i];
-      if(data.toLowerCase().contains(searchText.toLowerCase())) {
-        listData.add(data);
-      }
-    }
+  setState(() {
+    _searchText = searchText;
+  });
 
-    setState(() {});
+  // Atualize a lista filtrada apenas se houver um texto de pesquisa
+  if (_searchText.isNotEmpty) {
+    final lowerSearchText = _searchText.toLowerCase();
+    listData = _list.where((data) => data.toLowerCase().contains(lowerSearchText)).toList();
+  } else {
+    // Se o texto de pesquisa estiver vazio, exiba todas as tarefas
+    listData = List.from(_list);
   }
+}
+
+// Este método pode ser chamado quando o teclado é fechado
+void onKeyboardClosed() {
+  // Atualize a lista de dados apenas se houver um texto de pesquisa
+  if (_searchText.isNotEmpty) {
+    search(_searchText);
+  }
+}
 
   @override
   Widget build(BuildContext context) {
