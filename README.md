@@ -39,6 +39,7 @@ git clone git@github.com:natanlimaz/todolist-app-flutter.git
    - Certifique-se de estar no diretório raiz do seu projeto Flutter.
 
 4. **Conecte seu dispositio físico ao computador usando um cabo USB**:
+   - Certifique-se de ter configurado corretamente seu dispositivo, um pouco mais acima possui um link com o passo a passo para configura-lo.
    - Certifique-se que a opção de depuração USB do seu aparelho está ativada.
    - Caso apareça uma mensagem de aceitar a permisão de depuração USB, clique em permitir.
 
