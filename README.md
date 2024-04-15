@@ -35,13 +35,13 @@ git clone git@github.com:natanlimaz/todolist-app-flutter.git
    - Se você não configurou o Flutter SDK, siga as instruções de instalação no site oficial do Flutter em [flutter.dev](https://flutter.dev/docs/get-started/install).
 
 3. **Abra um Terminal Integrado**:
-   - No VSCode, pressione `Ctrl + `` (grave) para abrir o terminal integrado.
+   - No VSCode, pressione `Ctrl +` (grave) para abrir o terminal integrado.
    - Certifique-se de estar no diretório raiz do seu projeto Flutter.
 
 4. **Conecte seu dispositio físico ao computador usando um cabo USB**:
-   - Certifique-se que a opçao de depuração USB do seu aparelho está ativada.
+   - Certifique-se que a opção de depuração USB do seu aparelho está ativada.
    - Caso apareça uma mensagem de aceitar a permisão de depuração USB, clique em permitir.
 
 5. **Execute o Comando Flutter Run**:
    - No terminal integrado, digite o comando `flutter run` e pressione "Enter".
-   - Isso irá compilar seu aplicativo Flutter e iniciá-lo em um dispositivo virtual ou físico conectado.
+   - Isso irá compilar seu aplicativo Flutter e iniciá-lo no dispositivo físico conectado.
