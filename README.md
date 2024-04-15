@@ -48,3 +48,20 @@ git clone git@github.com:natanlimaz/todolist-app-flutter.git
    - Isso irá instalar as dependências necessárias e compilar seu aplicativo Flutter e iniciá-lo no dispositivo físico conectado (Digite o comando e aguarde!).
 
 ## Como Usar o Aplicativo e Suas Funcionalidades
+### 1. Adicionar uma Nova Tarefa
+- Para adicionar uma nova tarefa, siga os passos abaixo:
+  1. Abra o aplicativo "Lista de Tarefas" em seu dispositivo.
+  2. Na tela principal, você verá um botão ou ícone "+" para adicionar uma nova tarefa. Toque neste botão.
+  3. Um campo de texto será exibido para você inserir o título da nova tarefa. Digite o título da tarefa desejada.
+  4. Após digitar o título da tarefa, pressione o botão "Adicionar Tarefa" para confirmar a adição da tarefa.
+
+### 2. Visualizar e Atualizar Tarefas
+- Depois de adicionar algumas tarefas, você poderá visualizá-las e gerenciá-las na lista principal. Aqui está o que você pode fazer:
+  - **Editar Tarefa**: Se precisar editar o título de uma tarefa existente, toque na tarefa para abrir o modo de edição. Você pode então modificar o título conforme necessário e salvar as alterações clicando em "Adicionar tarefa".
+  - **Excluir Tarefa**: Para excluir uma tarefa, toque no ícone de lixeira que aparece na tarefa. A tarefa será removida da lista.
+
+### 3. Buscar Tarefas
+- Além de Adicionar, Editar, Deletar e Visualizar todas as suas tarefas na lista principal, você também pode usar a função de busca para encontrar tarefas específicas. Siga estas etapas:
+  1. Toque na barra de busca, ela fica localizada na parte superior da tela inicial, na parte superior da lista de tarefas, possui o simbolo de uma lupa.
+  2. Digite o nome da tarefa na caixa de texto
+  3. O aplicativo irá filtrar as tarefas de acordo com o termo fornecido, exibindo apenas as tarefas que contém em seu nome o termo digitado.
