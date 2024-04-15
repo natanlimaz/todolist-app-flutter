@@ -11,10 +11,10 @@ O aplicativo Todo List é uma ferramenta simples e eficiente para ajudá-lo a or
 ### 2. Editor de Código
 **Visual Studio Code**: [Instalação do VSCode](https://code.visualstudio.com/download)
 - **Dart Plugin**: Certifique-se de instalar o plugin do Dart no VSCode para obter suporte completo ao Flutter.
-- **Deve ser feita a instalar dois plugins, segue abaixo o id de ambos**
-- **Dart -> Dart-Code.dart-code**
-- **Flutter -> Dart-Code.flutter**
-- Só copiar e colar na aba de extensão do Visual Studio Code e clicar em instalar.
+- **Deve ser feita a instalaçao de dois plugins, segue abaixo o id de ambos**
+- **Dart -> Dart-Code.dart-code**: Só copiar e colar na aba de extensão do Visual Studio Code e clicar em instalar.
+- **Flutter -> Dart-Code.flutter**: Só copiar e colar na aba de extensão do Visual Studio Code e clicar em instalar.
+
 
 ## Guia Passo a Passo para Executar o Aplicativo
 
