@@ -64,7 +64,7 @@ git clone git@github.com:natanlimaz/todolist-app-flutter.git
 - Além de Adicionar, Editar, Deletar e Visualizar todas as suas tarefas na lista principal, você também pode usar a função de busca para encontrar tarefas específicas. Siga estas etapas:
   1. Toque na barra de busca, ela fica localizada na parte superior da tela inicial, na parte superior da lista de tarefas, possui o simbolo de uma lupa.
   2. Digite o nome da tarefa na caixa de texto
-  3. O aplicativo irá filtrar as tarefas de acordo com o termo fornecido, exibindo apenas as tarefas que contém em seu nome o termo digitado.
+  3. O aplicativo irá filtrar as tarefas de acordo com o termo fornecido, mostrando as tarefas que contém em seu nome o termo digitado.
 
 ### 4. Notificar o usuário em cada ação
 - Note que sempre que você efetua uma ação, é exibido uma mensagem simples na parte inferior da tela informando a ação feita, as ações são informadas em formato de Toast quando:
